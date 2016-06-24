@@ -1,0 +1,36 @@
+
+.homebanner{
+  background: url("../media/winehills.jpg"),  no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.homebanner > h1{
+    padding-top: 300px;
+}
+
+.banner-text{
+  color: #fff;
+  animation: color-me-in 5s;
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    color: #7f1a1a;
+  }
+  /* You could think of as "step 2" */
+  100% {
+   color: white;
+  }
+}
+
+
+.btn-region{
+  margin-top: 15px;
+}
